@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    text-align: center; /* Centraliza todo o conteúdo */
 }
 
 header {
@@ -11,30 +12,31 @@ header {
     padding: 10px 0;
     text-align: center;
     position: relative;
+    margin-bottom: 20px; /* Espaço inferior */
 }
 
 .header-image {
     width: 100%;
-    max-width: 400px;
+    max-width: 400px; /* Ajusta a largura máxima da imagem */
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto; /* Centraliza a imagem */
     padding: 5px 0;
 }
 
 nav ul {
-    list-style: none;
+    list-style: none; /* Remove marcadores */
     padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: inline; /* Exibe itens em linha */
+    margin: 0 15px; /* Espaço entre itens */
 }
 
 nav ul li a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: none; /* Remove sublinhado */
 }
 
 main {
@@ -44,6 +46,23 @@ main {
     width: 80%;
     max-width: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Alinha texto à esquerda */
+}
+
+.contact {
+    max-width: 600px; /* Largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário */
+}
+
+form {
+    display: flex; /* Utiliza Flexbox */
+    flex-direction: column; /* Coluna de itens */
+    gap: 15px; /* Espaçamento entre itens */
+}
+
+button {
+    align-self: center; /* Centraliza botão */
+    padding: 10px 20px; /* Espaçamento do botão */
 }
 
 footer {
@@ -52,4 +71,6 @@ footer {
     background-color: #333;
     color: #fff;
     margin-top: 20px;
+    font-size: 0.9em; /* Tamanho da fonte do rodapé */
+    color: #666; /* Cor do texto do rodapé */
 }
