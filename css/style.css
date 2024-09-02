@@ -1,4 +1,5 @@
-body {
+/* Estilos gerais do corpo da página */
+body { 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -6,7 +7,8 @@ body {
     text-align: center;
 }
 
-header {
+/* Estilos para o cabeçalho */
+header { 
     background-color: #333;
     color: #fff;
     padding: 10px 0;
@@ -15,7 +17,8 @@ header {
     margin-bottom: 20px;
 }
 
-.header-image {
+/* Estilos para a imagem no cabeçalho */
+.header-image { 
     width: 100%;
     max-width: 400px;
     height: auto;
@@ -24,22 +27,26 @@ header {
     padding: 5px 0;
 }
 
-nav ul {
+/* Estilos para o menu de navegação */
+nav ul { 
     list-style: none;
     padding: 0;
 }
 
-nav ul li {
+/* Estilos para itens de navegação */
+nav ul li { 
     display: inline;
     margin: 0 15px;
 }
 
-nav ul li a {
+/* Estilos para links de navegação */
+nav ul li a { 
     color: #fff;
     text-decoration: none;
 }
 
-main {
+/* Estilos para o conteúdo principal */
+main { 
     padding: 20px;
     background-color: #fff;
     margin: 20px auto;
@@ -49,23 +56,27 @@ main {
     text-align: left;
 }
 
-.contact {
+/* Estilos para a seção de contato */
+.contact { 
     max-width: 600px;
     margin: 0 auto;
 }
 
-form {
+/* Estilos para o formulário */
+form { 
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-button {
+/* Estilos para o botão de envio */
+button { 
     align-self: center;
     padding: 10px 20px;
 }
 
-footer {
+/* Estilos para o rodapé */
+footer { 
     text-align: center;
     padding: 10px 0;
     background-color: #333;
@@ -75,32 +86,36 @@ footer {
     color: #666;
 }
 
-.portfolio ul {
+/* Estilos para a lista de portfólio */
+.portfolio ul { 
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Espaço entre as caixas */
+    gap: 20px;
     list-style: none;
     padding: 0;
 }
 
-.portfolio ul li {
-    flex: 1 1 calc(50% - 40px); /* Tamanho das caixas e espaçamento */
-    max-width: calc(50% - 40px); /* Limita o tamanho máximo */
-    background-color: #f4f4f4; /* Cor de fundo da caixa */
+/* Estilos para os itens do portfólio */
+.portfolio ul li { 
+    flex: 1 1 calc(50% - 40px);
+    max-width: calc(50% - 40px);
+    background-color: #f4f4f4;
     padding: 20px;
-    border: 1px solid #ddd; /* Borda da caixa */
-    border-radius: 10px; /* Arredondamento das bordas */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    transition: transform 0.3s, box-shadow 0.3s; /* Efeito de transição */
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.portfolio ul li:hover {
-    transform: translateY(-5px); /* Efeito de hover */
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Efeito de hover */
+/* Estilos de hover para os itens do portfólio */
+.portfolio ul li:hover { 
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-.portfolio ul li a {
+/* Estilos para os links dos itens do portfólio */
+.portfolio ul li a { 
     text-decoration: none;
     color: #333;
     font-weight: bold;
