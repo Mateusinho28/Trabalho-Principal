@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    text-align: center; /* Centraliza todo o conteúdo */
+    text-align: center;
 }
 
 header {
@@ -12,31 +12,31 @@ header {
     padding: 10px 0;
     text-align: center;
     position: relative;
-    margin-bottom: 20px; /* Espaço inferior */
+    margin-bottom: 20px;
 }
 
 .header-image {
     width: 100%;
-    max-width: 400px; /* Ajusta a largura máxima da imagem */
+    max-width: 400px;
     height: auto;
     display: block;
-    margin: 0 auto; /* Centraliza a imagem */
+    margin: 0 auto;
     padding: 5px 0;
 }
 
 nav ul {
-    list-style: none; /* Remove marcadores */
+    list-style: none;
     padding: 0;
 }
 
 nav ul li {
-    display: inline; /* Exibe itens em linha */
-    margin: 0 15px; /* Espaço entre itens */
+    display: inline;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: #fff;
-    text-decoration: none; /* Remove sublinhado */
+    text-decoration: none;
 }
 
 main {
@@ -46,23 +46,23 @@ main {
     width: 80%;
     max-width: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: left; /* Alinha texto à esquerda */
+    text-align: left;
 }
 
 .contact {
-    max-width: 600px; /* Largura máxima do formulário */
-    margin: 0 auto; /* Centraliza o formulário */
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 form {
-    display: flex; /* Utiliza Flexbox */
-    flex-direction: column; /* Coluna de itens */
-    gap: 15px; /* Espaçamento entre itens */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 button {
-    align-self: center; /* Centraliza botão */
-    padding: 10px 20px; /* Espaçamento do botão */
+    align-self: center;
+    padding: 10px 20px;
 }
 
 footer {
@@ -71,6 +71,40 @@ footer {
     background-color: #333;
     color: #fff;
     margin-top: 20px;
-    font-size: 0.9em; /* Tamanho da fonte do rodapé */
-    color: #666; /* Cor do texto do rodapé */
+    font-size: 0.9em;
+    color: #666;
+}
+
+.portfolio ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaço entre as caixas */
+    list-style: none;
+    padding: 0;
+}
+
+.portfolio ul li {
+    flex: 1 1 calc(50% - 40px); /* Tamanho das caixas e espaçamento */
+    max-width: calc(50% - 40px); /* Limita o tamanho máximo */
+    background-color: #f4f4f4; /* Cor de fundo da caixa */
+    padding: 20px;
+    border: 1px solid #ddd; /* Borda da caixa */
+    border-radius: 10px; /* Arredondamento das bordas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s; /* Efeito de transição */
+}
+
+.portfolio ul li:hover {
+    transform: translateY(-5px); /* Efeito de hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Efeito de hover */
+}
+
+.portfolio ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
 }
